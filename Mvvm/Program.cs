@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Mvvm.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Mvvm.Views;
 
-namespace CSharpFormSample
+namespace Mvvm
 {
     static class Program
     {
@@ -16,7 +18,9 @@ namespace CSharpFormSample
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            var viewModel = new SampleViewModel();
+            Application.Run(new SampleView(viewModel));
         }
     }
 }

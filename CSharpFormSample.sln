@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFormSample", "CSharpFormSample\CSharpFormSample.csproj", "{3A3B6C4D-2AD8-448B-8E5E-FE73AC91F8CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicControlEvent", "DynamicControlEvent\DynamicControlEvent.csproj", "{3A3B6C4D-2AD8-448B-8E5E-FE73AC91F8CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvvm", "Mvvm\Mvvm.csproj", "{5CEB5619-155B-492B-8F9D-34E6FBB0292E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3A3B6C4D-2AD8-448B-8E5E-FE73AC91F8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A3B6C4D-2AD8-448B-8E5E-FE73AC91F8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A3B6C4D-2AD8-448B-8E5E-FE73AC91F8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CEB5619-155B-492B-8F9D-34E6FBB0292E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEB5619-155B-492B-8F9D-34E6FBB0292E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEB5619-155B-492B-8F9D-34E6FBB0292E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEB5619-155B-492B-8F9D-34E6FBB0292E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
